@@ -1,4 +1,20 @@
-Git Flow command list
+# Gitflow Practice Repository
+
+## Description: 
+
+A repository to practice and master the Gitflow workflow. This repository includes examples and exercises for creating and managing feature, release, and hotfix branches using Gitflow.
+Gitflow is a branching strategy for Git that helps manage source code and versions efficiently. Proposed by Vincent Driessen, it uses multiple branches to systematically handle development, deployment, and bug fixes.
+This structure allows team members to work on different tasks simultaneously while minimizing conflicts and maintaining code quality.
+
+## Gitflow consists of the following main branches:
+
+1. Master: The stable branch that can be released to production.
+2. Develop: The branch where the next release is developed.
+3. Feature: Branches created from develop to work on new features.
+4. Release: Branches created to prepare for a new production release, including QA and bug fixes.
+5. Hotfix: Branches created to fix urgent bugs in the production release.
+
+## Git Flow command list
 
 git init .
 vim README.md
